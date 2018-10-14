@@ -18,7 +18,7 @@ body {
     border-bottom: solid 2px;
     border-color: #cccccc;
     overflow: auto;
-    width: 960px;
+    max-width: 960px;
     margin: auto;
 }
 
@@ -32,6 +32,7 @@ body {
     border-radius: 0px;
     padding: 20px;
     padding-bottom: 0px;
+    max-width: 960px;
 }
 
 .profpic {
