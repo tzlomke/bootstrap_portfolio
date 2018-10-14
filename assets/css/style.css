@@ -1,0 +1,125 @@
+/* general */
+
+html,
+body {
+    background-image: url("../../assets/images/grey_wash_wall.png");
+    position: relative;
+    height: auto;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.fixed-top {
+    /* height: 85px;
+    margin-bottom: 40px; */
+    box-sizing: border-box;
+    height: 87px;
+    position: relative;
+    background-color: #ffffff;
+    border-bottom: solid 2px;
+    border-color: #cccccc;
+    overflow: auto;
+}
+
+/* content area */
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border: solid 1px #cccccc;
+    border-radius: 0px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.profpic {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* visual style */
+
+h1 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding: 25px 18px;
+    width: 270px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 85px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #777777;
+}
+
+.nav-link:hover {
+    color: #4aaaa5;
+}
+
+
+/* footer */
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -50px;
+}
+
+.footer,
+.push {
+    height: 50px;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 40px;
+    bottom: 0;
+    clear: both;
+    text-align: center;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 10px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: bottom;
+    border-top: solid 10px;
+    border-color: #4aaaa5;
+    display: block;
+}
+
+.copy {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: bottom;
+}
