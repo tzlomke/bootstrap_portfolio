@@ -150,16 +150,10 @@ textarea.form-control {
 
 /* Responsive Images */
 
-.imf-fluid {
-    max-height: 200px;
-    max-width: 270px;
-}
-
 .profpic {
-    max-height: 200px;
+    width: 100%;
     max-width: 250px;
     height: auto;
-    width: auto;
     margin-bottom: 0px;
 }
 
