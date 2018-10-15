@@ -27,7 +27,7 @@ body {
     background-color: #ffffff;
     border-bottom: solid 2px;
     border-color: #cccccc;
-    overflow: hidden;
+    overflow: auto;
     max-width: 960px;
     margin: auto;
 }
@@ -127,7 +127,8 @@ textarea.form-control {
 
 .text {
     display: inline-block;
-    width: 275px;
+    width: 100%;
+    max-width: 275px;
     position: absolute;
     left: 15px;
     bottom: 10px;
@@ -207,4 +208,10 @@ h1 {
     color: #4aaaa5;
 }
 
-
+/* Small Device Nav Fix */
+@media screen and (max-width: 640px) {
+    .fixed-top {
+        height: 130px;
+        overflow: hidden;
+    }
+}
