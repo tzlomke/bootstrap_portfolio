@@ -15,7 +15,6 @@ body {
 }
 
 body {
-    margin-bottom: 50px;
     display: block;
 }
 
@@ -28,7 +27,7 @@ body {
     background-color: #ffffff;
     border-bottom: solid 2px;
     border-color: #cccccc;
-    overflow: auto;
+    overflow: hidden;
     max-width: 960px;
     margin: auto;
 }
@@ -76,6 +75,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    margin-bottom: 90px;
     border: solid 1px #cccccc;
     border-radius: 0px;
     padding: 20px;
